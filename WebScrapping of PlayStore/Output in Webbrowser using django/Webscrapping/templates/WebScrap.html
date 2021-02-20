@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <title>WebScrap</title>
+  </head>
+  <body>
+    <h2><i>Click "Scrap" to get details of Google App From Play Store.</i></h2><div class="d-grid gap-2 col-6 mx-auto">
+  
+  <button style="margin-left: -338px;padding-right: 4.75rem;margin-right: 178px;" class="btn btn-primary" type="button" onclick="location.href='{% url 'script' %}'">Scrap</button>
+  
+</div><br>
+    <h3>1.Developer:-</h3>
+    <p>{{data1}} </p><br>
+    <h3>2.Description:-</h3>
+    <p>{{data2}}</p><br>
+    <h3>3.Rating:-</h3>
+    <p>{{data3}}</p><br>
+    <h3>4.Number of Downloads:-</h3>
+    <p>{{data4}}</p><br>
+    <h3>5.Reviews:-</h3>
+    <br>
+   <p>{{data6}}</p><br>
+    
+
+   
+  </body>
+</html>
+
